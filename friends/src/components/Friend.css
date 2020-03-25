@@ -1,0 +1,57 @@
+.friend {
+    margin:10px;
+    background-color:#483D8B;
+    color:#E6E6FA;
+    fill:#E6E6FA;
+    border-radius:5px;
+    width:350px;
+    display:flex;
+    flex-direction:column;
+}
+
+.friend .buttons {
+    display:flex;
+    justify-content:space-between;
+}
+
+.friend .clear {
+    margin:10px;
+    transition:.3s;
+}
+
+.friend .clear-failed {
+    fill:salmon;
+}
+
+.friend .clear:hover {
+    cursor:pointer;
+    fill:white;
+}
+
+.friend .info {
+    padding:15px;
+    font-size:3rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.friend .info input {
+    background-color:inherit;
+    border:0;
+    outline:none;
+    font-size:2.5rem;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    color:#E6E6FA;
+}
+
+.friend .info input[name=name] {
+    font-weight:bold;
+}
+
+.friend form button {
+    text-align:center;
+}

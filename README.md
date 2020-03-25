@@ -17,12 +17,12 @@ Topics:
 * Once your server is up and running, the URL you'll be able to hit from within your app is `http://localhost:5000`. You will however need an authentication header on all the calls except the login call.
 * Take a look at the endpoints that our API has to offer in `server.js`.
 
-  * **[POST]** * to `/api/login`: returns a token to be added to the header of all other requests. Pass in the following credentials as the `body` of the request: `{ username: 'Lambda School', password: 'i<3Lambd4' }`
-  * **[GET]** to `/api/friends`: returns the list of friends.
-  * **[GET]** to `/api/friends/123`: returns the friend with the id passed as part of the URL (123 in example).
-  * **[POST]** to `/api/friends`: creates a friend and return the new list of friends. Pass the friend as the `body` of the request (the second argument passed to `axios.post`).
-  * **[PUT]** to `/api/friends/:id`: updates the friend using the `id` passed as part of the URL. Send the an object with the updated information as the `body` of the request (the second argument passed to `axios.put`).
-  * **[DELETE]** to `/api/friends/123`: removes the friend using the `id` passed as part of the URL (123 in example).
+  * [x] **[POST]** * to `/api/login`: returns a token to be added to the header of all other requests. Pass in the following credentials as the `body` of the request: `{ username: 'Lambda School', password: 'i<3Lambd4' }`
+  * [x] **[GET]** to `/api/friends`: returns the list of friends.
+  * [ ] **[GET]** to `/api/friends/123`: returns the friend with the id passed as part of the URL (123 in example).
+  * [ ] **[POST]** to `/api/friends`: creates a friend and return the new list of friends. Pass the friend as the `body` of the request (the second argument passed to `axios.post`).
+  * [ ] **[PUT]** to `/api/friends/:id`: updates the friend using the `id` passed as part of the URL. Send the an object with the updated information as the `body` of the request (the second argument passed to `axios.put`).
+  * [x] **[DELETE]** to `/api/friends/123`: removes the friend using the `id` passed as part of the URL (123 in example).
 
 ## Initialize Project
 

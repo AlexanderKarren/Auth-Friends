@@ -1,0 +1,44 @@
+.addFriend {
+    width:100%;
+    display:flex;
+    justify-content:center;
+    color:#E6E6FA;
+}
+
+.addFriend .addFriend-form {
+    border-radius:5px;
+    background-color:#483D8B;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:340px;
+    padding:10px;
+}
+
+.addFriend form {
+    width:100%;
+}
+
+.addFriend form > div {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:10px;
+}
+
+.addFriend form label {
+    font-size:2rem;
+    font-weight:bold;
+    margin-right:20px;
+    width:20%;
+}
+
+.addFriend form input {
+    width:80%;
+    font-size:1.5rem;
+    padding:10px;
+}
+
+.addFriend button {
+    width:100%;
+}
