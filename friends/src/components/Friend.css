@@ -9,6 +9,11 @@
     flex-direction:column;
 }
 
+.friend .buttons {
+    display:flex;
+    justify-content:space-between;
+}
+
 .friend .clear {
     margin:10px;
     transition:.3s;
@@ -29,4 +34,24 @@
     display:flex;
     flex-direction:column;
     align-items:center;
+}
+
+.friend .info input {
+    background-color:inherit;
+    border:0;
+    outline:none;
+    font-size:2.5rem;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    color:#E6E6FA;
+}
+
+.friend .info input[name=name] {
+    font-weight:bold;
+}
+
+.friend form button {
+    text-align:center;
 }

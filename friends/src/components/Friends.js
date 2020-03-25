@@ -8,6 +8,7 @@ const Friends = () => {
     const [friends, updateFriends] = useState([]);
 
     useEffect(() => {
+        
         axiosWithAuth().get("/api/friends").then(response => {
             console.log(response.data);
             updateFriends(response.data);
@@ -16,6 +17,7 @@ const Friends = () => {
             console.log(error);
         })
     }, [])
+
     return (
         <div className="friends">
             <AddFriend updateFriends={updateFriends}/>

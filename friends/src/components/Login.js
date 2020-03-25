@@ -3,7 +3,7 @@ import { useHistory } from 'react-router-dom'
 import './Login.css'
 import axios from 'axios'
 
-const Login = () => {
+const Login = props => {
     const [user, setUser] = useState({
         username: "",
         password: ""
@@ -14,6 +14,7 @@ const Login = () => {
         axios.post("http://localhost:5000/api/login", user).then(response => {
             console.log(response);
             localStorage.setItem("token", JSON.stringify(response.data.payload));
+            props.setHeaderDisplay(true);
             push("/friends");
         })
         .catch(error => {
