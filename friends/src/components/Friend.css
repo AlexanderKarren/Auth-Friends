@@ -4,7 +4,7 @@
     color:#E6E6FA;
     fill:#E6E6FA;
     border-radius:5px;
-    width:300px;
+    width:350px;
     display:flex;
     flex-direction:column;
 }
@@ -24,7 +24,7 @@
 }
 
 .friend .info {
-    padding:20px;
+    padding:15px;
     font-size:3rem;
     display:flex;
     flex-direction:column;

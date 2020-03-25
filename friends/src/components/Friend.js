@@ -23,7 +23,7 @@ const Friend = props => {
         <div className="friend">
             <div className={failure ? "clear-failed" : "clear"} onClick={defriend}><ReactSVG src="clear.svg" /></div>
             <div className="info">
-                <h3>{props.friend.name}</h3>
+                <h4>{props.friend.name}</h4>
                 <p>{props.friend.age}</p>
                 <p>{props.friend.email}</p>
             </div>

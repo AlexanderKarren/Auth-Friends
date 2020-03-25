@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { axiosWithAuth } from '../utils/axiosWithAuth'
 import Friend from './Friend'
+import AddFriend from './AddFriend'
 import './Friends.css'
 
 const Friends = () => {
@@ -17,6 +18,7 @@ const Friends = () => {
     }, [])
     return (
         <div className="friends">
+            <AddFriend updateFriends={updateFriends}/>
             {friends.map(friend => <Friend friend={friend} updateFriends={updateFriends}/>)}
         </div>
     )
