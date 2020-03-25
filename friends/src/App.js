@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Switch, Route } from 'react-router-dom'
 import { PrivateRoute } from './utils/PrivateRoute';
 import Header from './components/Header'
@@ -7,8 +7,6 @@ import Login from './components/Login'
 import './App.css';
 
 function App() {
-  const [friends, updateFriends] = useState([]);
-  
   return (
     <div className="App">
       <Header />

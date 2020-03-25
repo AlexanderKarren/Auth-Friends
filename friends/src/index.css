@@ -43,3 +43,20 @@ input {
   border:0;
   outline:none;
 }
+
+button {
+  border-radius:5px;
+  border:2px solid #E6E6FA;
+  font-size:2rem;
+  font-weight:bold;
+  color:#E6E6FA;
+  background-color:#483D8B;
+  width:50%;
+  height:40px;
+}
+
+button:hover {
+  color:#483D8B;
+  background-color:#E6E6FA;
+  cursor:pointer;
+}
